@@ -1,0 +1,70 @@
+/* Unerversale selector starts */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.card,
+.feedback {
+  padding: 1rem;
+  width: 500px;
+  margin: 1.5rem auto;
+}
+
+.btn {
+  background: salmon;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Unerversale selector ends */
+
+/* card designs starts  */
+.card {
+  background: bisque;
+}
+
+.card__title {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.card__button {
+  background: palegreen;
+}
+
+/* card designs end */
+
+/* feedback design starts  */
+.feedback {
+  background: palegoldenrod;
+}
+
+.feedback__title {
+  color: purple;
+  margin-bottom: 10px;
+}
+
+.feedback__button {
+  background: orange;
+}
+
+.feedback__button--large {
+  padding: 20px;
+}
+
+/* feedback design end */
+
+/* 
+    *Some Information For BEM
+    Block .card
+    Elements .title
+    .modifer .title--large
+    Full BEM = .card__title--large
+
+*/
